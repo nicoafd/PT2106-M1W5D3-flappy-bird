@@ -2,7 +2,7 @@ class Game {
     constructor() {
         // arguments are used to personalize the objcets
         this.bg = new Image()
-        this.bg.src = "../images/bg.png"
+        this.bg.src = "/images"
         this.bird = new Bird();
         this.pipesArr = [];
         this.isGameOn = true
